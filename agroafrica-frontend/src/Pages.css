@@ -1,0 +1,100 @@
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:green;
+  padding:15px 30px;
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+.nav-links a{
+  color:white;
+  margin-left:20px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+/* PAGE */
+.page{
+  padding:30px;
+}
+
+.description{
+  font-size:18px;
+  line-height:1.8;
+  margin-bottom:30px;
+}
+
+/* SLIDER */
+.slider img{
+  width:100%;
+  height:60vh;
+  object-fit:cover;
+}
+
+/* CARD GRID */
+.grid{
+  display:flex;
+  flex-wrap:wrap;
+  gap:25px;
+  justify-content:center;
+}
+
+/* CARD */
+.card{
+  width:300px;
+  background:white;
+  border-radius:10px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.2);
+  padding:15px;
+}
+
+.card img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+  border-radius:8px;
+}
+
+.card h3{
+  color:darkgreen;
+  font-size:24px;
+}
+
+.card p{
+  color:black;
+  font-size:17px;
+}
+
+.more{
+  background:#eef9ee;
+  padding:10px;
+  margin-top:10px;
+}
+
+/* PROJECT BOX */
+.project-box{
+  width:100%;
+  background:linear-gradient(90deg,#2e7d32,#66bb6a);
+  color:white;
+  padding:25px;
+  margin-bottom:15px;
+  border-radius:8px;
+}
+
+/* CONTACT */
+.contact-box{
+  background:#f4fff4;
+  padding:30px;
+  text-align:center;
+  border-radius:10px;
+  font-size:18px;
+}
