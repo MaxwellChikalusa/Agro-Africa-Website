@@ -26,9 +26,7 @@ export default function Home() {
         <p>
           Agro Africa Trading is a modern agricultural company committed to transforming farming through innovation,
           commercial agriculture, and livestock development. We promote sustainable crop production, support farmers
-          with reliable markets, and provide quality agricultural inputs(Fertilizers, Seeds, Pesticides). Our organization works closely with
-          communities to improve food security, increase farmer income, and promote agribusiness growth across Malawi.
-          We believe agriculture is the backbone of economic development and rural empowerment.
+          with reliable markets, and provide quality agricultural inputs(Fertilizers, Seeds, Pesticides).               We Offer
         </p>
         <ol
   style={{
