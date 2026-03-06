@@ -1,5 +1,4 @@
 import FarmCard from "../components/FarmCard";
-
 import hero from "../assets/services.jpg";
 import potatoes from "../assets/potatoes.jpg";
 import maize from "../assets/maize.jpg";
