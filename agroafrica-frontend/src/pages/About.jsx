@@ -93,7 +93,7 @@ export default function About() {
         />
         <FarmCard
           title="Operations and Field Support Officer"
-          img="/peter.jpg"
+          img="/peter1.jpg"
           label="MR. PETER MANDALA"
           description="Mikolongwe College of Veterinary Science – Farm Management. Coordinates field operations and livestock management activities."
           extra="Provides technical support to farmers, oversees animal health programs, monitors farm performance, and ensures proper implementation of field production standards."

@@ -28,11 +28,13 @@ export default function Home() {
         <ol
           style={{
             textAlign: "left",
-            paddingLeft: "4cm",
-            paddingRight: "4cm",
+            paddingLeft: "5%",
+            paddingRight: "5%",
             margin: "20px auto",
             fontSize: "20px",
             lineHeight: "1.8",
+            maxWidth: "900px",   // keeps it neat on large screens
+            wordWrap: "break-word"
           }}
         >
           <li>
@@ -54,6 +56,7 @@ export default function Home() {
             Guidance and Advisory Services — Crop, Animal, and Market Advice, Guidance, and Insights
           </li>
         </ol>
+
       </div>
     </div>
   );
