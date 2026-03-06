@@ -1,9 +1,7 @@
-import img from "../assets/contact.jpg";
-
 export default function Contact() {
   return (
     <div style={page}>
-      <img src={img} style={image} />
+      <img src="/contact.jpg" style={image} />
 
       <div style={card}>
         <h1>Contact Agro Africa Trading</h1>
@@ -22,25 +20,6 @@ export default function Contact() {
   );
 }
 
-const page = {
-  minHeight: "100vh",
-  background: "linear-gradient(to bottom, #e8f5e9, #81c784)"
-};
-
-const image = {
-  width: "100%",
-  height: "45vh",
-  objectFit: "cover"
-};
-
-const card = {
-  width: "70%",
-  margin: "30px auto",
-  background: "#ffffffe6",
-  padding: "40px",
-  textAlign: "center",
-  fontSize: "22px",
-  borderRadius: "15px",
-  color: "#1b5e20",
-  boxShadow: "0 8px 22px rgba(0,0,0,0.3)"
-};
+const page = { minHeight: "100vh", background: "linear-gradient(to bottom, #e8f5e9, #81c784)" };
+const image = { width: "100%", height: "45vh", objectFit: "cover" };
+const card = { width: "70%", margin: "30px auto", background: "#ffffffe6", padding: "40px", textAlign: "center", fontSize: "22px", borderRadius: "15px", color: "#1b5e20", boxShadow: "0 8px 22px rgba(0,0,0,0.3)" };

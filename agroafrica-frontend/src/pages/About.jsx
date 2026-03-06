@@ -1,17 +1,10 @@
 import FarmCard from "../components/FarmCard";
-import hero from "../assets/about.jpg";
-import max from "../assets/max.jpg";
-import gift from "../assets/gift.jpg";
-import peter from "../assets/peter.jpg";
-import kennie from "../assets/kennie.jpg";
-import victor from "../assets/victor.jpg";
-import robert from "../assets/robert.jpg";
 
 export default function About() {
   return (
     <div style={page}>
       {/* Hero image */}
-      <img src={hero} style={heroStyle} />
+      <img src="/about.jpg" style={heroStyle} />
 
       {/* Intro text */}
       <div style={intro}>
@@ -72,43 +65,42 @@ export default function About() {
       <div style={cardsContainer}>
         <FarmCard
           title="Managing Director"
-          img={victor}
+          img="/victor.jpg"
           label="MR. VICTOR BANSWELL "
           description="Master’s degree in Business Administration(MBA), BSc in Accounting – Malawi College of Accountancy. Provides strategic leadership, financial oversight, and overall business direction for Agro Africa Trading."
           extra="Responsible for corporate governance, investment decisions, financial sustainability, and partnership development while ensuring operational growth and accountability across all departments."
         />
         <FarmCard
           title="Finance Manager"
-          img={robert}
+          img="/robert.jpg"
           label="MR. ROBERT NGWIRA "
           description="BSc in Accounting. Oversees financial planning, budgeting, and financial reporting of the company."
           extra="Manages accounts, prepares financial statements, monitors cash flow, ensures compliance with financial regulations, and supports management with accurate financial analysis for decision-making."
         />
         <FarmCard
           title="Administration and Systems Support Officer"
-          img={max}
+          img="/max.jpg"
           label="MR. MAXWELL CHIKALUSA"
           description="BSc in Computer Science. Manages administrative operations and provides systems and technical support."
           extra="Oversees office documentation, digital systems management, data reporting, and ensures smooth coordination between departments to enhance operational efficiency."
         />
         <FarmCard
           title="Farm Manager"
-          img={kennie}
+          img="/kennie.jpg"
           label="MR. KENNEDY KATELERA"
           description="BSc in Agriculture Economics (Pending) and Diploma in Irrigation Technology. Supervises all farm operations and production activities."
           extra="Responsible for irrigation management, crop planning, input utilization, production efficiency, cost control, and ensuring maximum yield through modern agricultural practices."
         />
         <FarmCard
           title="Operations and Field Support Officer"
-          img={peter}
+          img="/peter.jpg"
           label="MR. PETER MANDALA"
           description="Mikolongwe College of Veterinary Science – Farm Management. Coordinates field operations and livestock management activities."
           extra="Provides technical support to farmers, oversees animal health programs, monitors farm performance, and ensures proper implementation of field production standards."
-
         />
         <FarmCard
           title="Tractor Operator"
-          img={gift}
+          img="/gift.jpg"
           label="MR. GIFT LUSBAD"
           description="Licensed professional driver responsible for operating tractors and farm machinery."
           extra="Handles land preparation, ploughing, transportation of farm inputs and produce, and ensures proper maintenance and safe operation of agricultural equipment."
@@ -118,59 +110,12 @@ export default function About() {
   );
 }
 
+/* Styles */
 const page = { width: "100vw", minHeight: "100vh" };
-
-const heroStyle = {
-  width: "100%",
-  height: "50vh",
-  objectFit: "cover",
-};
-
-const intro = {
-  padding: "40px 20px",
-  textAlign: "center",
-  fontSize: "22px",
-  lineHeight: "1.8",
-  color: "#000",
-};
-
-/* ONLY NEW STYLING FOR REQUESTED SECTION */
-const infoSection = {
-  maxWidth: "1000px",
-  margin: "0 auto",
-  padding: "20px",
-  display: "flex",
-  flexDirection: "column",
-  gap: "25px",
-};
-
-const infoBox = {
-  background: "#f5f7f5",
-  padding: "25px",
-  borderRadius: "10px",
-  boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-  textAlign: "center",
-  lineHeight: "1.7",
-  fontSize: "18px",
-};
-
-const infoTitle = {
-  color: "#1b5e20",
-  marginBottom: "10px",
-};
-
-const valuesList = {
-  listStyle: "none",
-  padding: 0,
-  margin: 0,
-  lineHeight: "2",
-};
-
-const cardsContainer = {
-  display: "flex",
-  flexWrap: "wrap",
-  gap: "25px",
-  justifyContent: "center",
-  marginTop: "50px",
-  paddingBottom: "50px",
-};
+const heroStyle = { width: "100%", height: "50vh", objectFit: "cover" };
+const intro = { padding: "40px 20px", textAlign: "center", fontSize: "22px", lineHeight: "1.8", color: "#000" };
+const infoSection = { maxWidth: "1000px", margin: "0 auto", padding: "20px", display: "flex", flexDirection: "column", gap: "25px" };
+const infoBox = { background: "#f5f7f5", padding: "25px", borderRadius: "10px", boxShadow: "0 2px 8px rgba(0,0,0,0.08)", textAlign: "center", lineHeight: "1.7", fontSize: "18px" };
+const infoTitle = { color: "#1b5e20", marginBottom: "10px" };
+const valuesList = { listStyle: "none", padding: 0, margin: 0, lineHeight: "2" };
+const cardsContainer = { display: "flex", flexWrap: "wrap", gap: "25px", justifyContent: "center", marginTop: "50px", paddingBottom: "50px" };
