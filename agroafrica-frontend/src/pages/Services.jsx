@@ -14,7 +14,7 @@ export default function Services() {
           input distribution (Fertilizer, Pesticides, Seeds), livestock development
           and crop production supporting farmers from land preparation to marketing.
         </p>
-          <ol
+        <ol
             style={{
               textAlign: "left",
               paddingLeft: "5%",
@@ -22,8 +22,8 @@ export default function Services() {
               margin: "20px auto",
               fontSize: "20px",
               lineHeight: "1.8",
-              maxWidth: "900px",   // keeps it neat on large screens
-              wordWrap: "break-word"
+              maxWidth: "900px",   // keeps it neat on desktops
+              wordWrap: "break-word",
             }}
           >
             <li>
@@ -44,7 +44,8 @@ export default function Services() {
             <li>
               Guidance and Advisory Services — Crop, Animal, and Market Advice, Guidance, and Insights
             </li>
-          </ol>
+        </ol>
+
 
       </div>
 

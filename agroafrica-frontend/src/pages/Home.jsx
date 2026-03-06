@@ -21,41 +21,41 @@ export default function Home() {
       <div style={intro}>
         <h1>Welcome To Agro Africa Trading</h1>
         <p>
-          Agro Africa Trading is a modern agricultural company committed to transforming farming through innovation,
-          commercial agriculture, and livestock development. We promote sustainable crop production, support farmers
-          with reliable markets, and provide quality agricultural inputs (Fertilizers, Seeds, Pesticides). We Offer:
+          Agro Africa Trading is a modern agricultural company committed to transforming farming through 
+          innovation, commercial agriculture, livestock development, crop production, support farmers
+          with reliable markets, and provide quality agricultural inputs. We Offer:
         </p>
-        <ol
-          style={{
-            textAlign: "left",
-            paddingLeft: "5%",
-            paddingRight: "5%",
-            margin: "20px auto",
-            fontSize: "20px",
-            lineHeight: "1.8",
-            maxWidth: "900px",   // keeps it neat on large screens
-            wordWrap: "break-word"
-          }}
-        >
-          <li>
-            Crop and Animal Production (Maize, Beans, Soya Beans, Irish Potatoes, Cassava, Groundnuts, Rice & Chicken, Pigs, Cattle, Goats)
-          </li>
-          <li>
-            Trading of Agricultural Produce to Consumers & Companies locally or Internationally
-          </li>
-          <li>
-            Buying & Selling Livestock & Crop Harvests (Buying Points in Dedza, Salima, Mchinji, Chikhwawa, Nkhotakota, Dowa, Zomba, Karonga, Kasungu)
-          </li>
-          <li>
-            Importing (Supplying) and Exporting Agricultural Inputs (Fertilizer, Pesticides & Seeds)
-          </li>
-          <li>
-            Grading, Assembling and Quality Assurance of Harvests and Produce bought from farmers (Malawi farmers)
-          </li>
-          <li>
-            Guidance and Advisory Services — Crop, Animal, and Market Advice, Guidance, and Insights
-          </li>
-        </ol>
+      <ol
+        style={{
+          textAlign: "left",
+          paddingLeft: "5%",
+          paddingRight: "5%",
+          margin: "20px auto",
+          fontSize: "20px",
+          lineHeight: "1.8",
+          maxWidth: "900px",   // keeps it neat on desktops
+          wordWrap: "break-word",
+        }}
+      >
+        <li>
+          Crop and Animal Production (Maize, Beans, Soya Beans, Irish Potatoes, Cassava, Groundnuts, Rice & Chicken, Pigs, Cattle, Goats)
+        </li>
+        <li>
+          Trading of Agricultural Produce to Consumers & Companies locally or Internationally
+        </li>
+        <li>
+          Buying & Selling Livestock & Crop Harvests (Buying Points in Dedza, Salima, Mchinji, Chikhwawa, Nkhotakota, Dowa, Zomba, Karonga, Kasungu)
+        </li>
+        <li>
+          Importing (Supplying) and Exporting Agricultural Inputs (Fertilizer, Pesticides & Seeds)
+        </li>
+        <li>
+          Grading, Assembling and Quality Assurance of Harvests and Produce bought from farmers (Malawi farmers)
+        </li>
+        <li>
+          Guidance and Advisory Services — Crop, Animal, and Market Advice, Guidance, and Insights
+        </li>
+      </ol>
 
       </div>
     </div>
