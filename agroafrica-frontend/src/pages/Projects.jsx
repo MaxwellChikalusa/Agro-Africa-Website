@@ -29,6 +29,10 @@ const projects = [
 export default function Projects() {
   return (
     <div style={page}>
+<<<<<<< HEAD
+=======
+      {/* Hero image */}
+>>>>>>> f4db3a610834fb9941793e0ad88071e0530978b9
       <img src="/projects.jpg" style={image} alt="Agro Africa projects" />
 
       <div style={container}>
