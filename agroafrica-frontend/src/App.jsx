@@ -1,5 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import QuickActions from "./components/QuickActions";
+import BackToTop from "./components/BackToTop";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -18,6 +20,8 @@ export default function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <BackToTop />
+      <QuickActions />
     </>
   )
 }

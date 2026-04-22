@@ -2,7 +2,7 @@ export default function Projects() {
   return (
     <div style={page}>
       {/* Hero image */}
-      <img src="/projects.jpg" style={image} />
+      <img src="/projects.jpg" style={image} alt="Agro Africa projects" />
 
       <div style={container}>
         <h1>Our Projects</h1>
