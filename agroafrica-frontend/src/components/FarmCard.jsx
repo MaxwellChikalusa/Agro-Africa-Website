@@ -6,7 +6,7 @@ export default function FarmCard({ title, img, description, extra, label }) {
   return (
     <div style={card}>
       {label && <span style={labelStyle}>{label}</span>}
-      <img src={img} style={image} />
+      <img src={img} alt={title} style={image} />
       <h2>{title}</h2>
       <p style={text}>{description}</p>
 
