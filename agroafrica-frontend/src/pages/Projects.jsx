@@ -7,18 +7,18 @@ const projects = [
     mediaType: "image",
     mediaSrc: "/pest-management.jpg",
     mediaAlt: "Our Farm Manager (Kennedy Katelera) Pest Management",
-    label: "Our Farm Manager (Kennedy Katelera) Controlling Pests & Diseases",
+    label: "Our Farm Manager (Kennedy Katelera) Pest Management",
   },
   {
     title: "Animal Production Projects (Keeping, Buying, Selling and Supplying animals for Food and Breeding)",
     text: "We are rearing cattle, goat, chickens and commercial pig farming operations.",
     mediaType: "image",
     mediaSrc: "/chickens.jpg",
-    mediaAlt: "Crop production support activities",
-    label: "Crop production activities",
+    mediaAlt: "Animal production activities",
+    label: "Animal production activities",
   },
   {
-    title: "Tractor Hiring and Supplying of Fertilizers, Seeds and Chemicals",
+    title: "Agricultural Development and Supplying of Fertilizers, Seeds and Chemicals",
     text: "Community farmer support programs through easy access to market, farm training initiatives and agricultural commercialization activities.",
     mediaType: "video",
     mediaSrc: "/tractorinoperat.mp4",
@@ -29,10 +29,6 @@ const projects = [
 export default function Projects() {
   return (
     <div style={page}>
-<<<<<<< HEAD
-=======
-      {/* Hero image */}
->>>>>>> f4db3a610834fb9941793e0ad88071e0530978b9
       <img src="/projects.jpg" style={image} alt="Agro Africa projects" />
 
       <div style={container}>

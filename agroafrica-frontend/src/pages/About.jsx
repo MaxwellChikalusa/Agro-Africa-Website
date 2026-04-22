@@ -53,11 +53,7 @@ export default function About() {
         <div style={infoBox}>
           <h2 style={infoTitle}>Our Team</h2>
           <p>
-<<<<<<< HEAD
             Agro Africa Trading is guided by a dedicated management team of 18 Employees (10 Males and 8 Females) 
-=======
-            Agro Africa Trading is guided by a dedicated management team of 18 Employees (10 Male and 8 Female) 
->>>>>>> f4db3a610834fb9941793e0ad88071e0530978b9
             with experience in agricultural production, farm operations, and business management. 
             Our leadership works together to ensure efficient service delivery and long-term
             support to farmers and agricultural partners.
