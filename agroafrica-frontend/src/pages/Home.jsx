@@ -87,9 +87,10 @@ export default function Home() {
       <div style={intro}>
         <h1>Welcome To Agro Africa Trading</h1>
         <p>
-          Agro Africa Trading is a modern agricultural company committed to transforming farming and trading through
-          innovation, commercial agriculture, livestock development, crop production, support farmers
-          with reliable markets, and provide quality agricultural inputs.
+         Agro Africa Trading is a modern agricultural company committed to transforming farming and agribusiness in Malawi
+         through innovation & commercial agriculture. The company specializes in crop production, livestock rearing, 
+         and sorting, grading, & market linkage. Agro Africa Trading supports farmers by providing quality agricultural inputs
+         and ensuring access to reliable markets, while promoting sustainable agricultural development.
         </p>
         <h2 style={servicesHeading}>Our Services</h2>
         <ol

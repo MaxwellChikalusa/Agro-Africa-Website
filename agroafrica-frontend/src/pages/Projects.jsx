@@ -7,7 +7,7 @@ const projects = [
     mediaType: "image",
     mediaSrc: "/pest-management.jpg",
     mediaAlt: "Our Farm Manager (Kennedy Katelera) Pest Management",
-    label: "Our Farm Manager (Kennedy Katelera) Pest Management",
+    label: "Our Farm Manager (Kennedy Katelera) Pest Management Control",
   },
   {
     title: "Animal Production Projects (Keeping, Buying, Selling and Supplying animals for Food and Breeding)",

@@ -10,12 +10,11 @@ export default function About() {
       <div style={intro}>
         <h1>About Us</h1>
         <p>
-          Agro Africa Trading focuses on agricultural transformation through crop production,
-          livestock farming, and agribusiness partnerships (supplying of inputs). The company empowers farmers
-          through training, input supply, and market access solutions. We work with smallholder
-          and commercial farmers improving productivity, supporting sustainable agriculture, and
-          strengthening food systems. Our goal is to become a leading agricultural value chain
-          company in Africa.
+        Agro Africa Trading focuses on agricultural transformation through crop production, livestock farming, 
+        and agribusiness partnerships, including the supply of quality inputs. The company empowers farmers 
+        through training, input provision, and access to markets, while also supporting activities such as sorting 
+        and grading. By working with both smallholder and commercial farmers, Agro Africa Trading improves productivity,
+        promotes sustainable agriculture, and strengthens food systems, with the goal of becoming a leading agricultural value chain company in Africa.
         </p>
       </div>
 
