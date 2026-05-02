@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agroafricatrading.it.com/sitemap.xml
