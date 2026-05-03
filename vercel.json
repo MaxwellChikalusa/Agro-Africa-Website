@@ -1,0 +1,9 @@
+{
+  "outputDirectory": "agroafrica-frontend/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

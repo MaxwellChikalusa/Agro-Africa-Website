@@ -1,0 +1,8 @@
+{
+  "name": "agroafricaweb",
+  "private": true,
+  "scripts": {
+    "build": "npm install --prefix agroafrica-frontend && npm run build --prefix agroafrica-frontend",
+    "dev": "npm run dev --prefix agroafrica-frontend"
+  }
+}
